@@ -1,24 +1,19 @@
 package com.rectangles.gameworld;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
-import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
-import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.utils.Disposable;
 import com.rectangles.gameobjects.Hero;
 import com.rectangles.gameobjects.Bullet;
 import com.rectangles.gameworld.GameWorld.GameState;
 import com.rectangles.rahelpers.AssetLoader;
 import com.rectangles.rahelpers.BackgroundHandler;
-import com.badlogic.gdx.math.MathUtils;
 
 public class GameRenderer implements Disposable {
 	/** Game Objects

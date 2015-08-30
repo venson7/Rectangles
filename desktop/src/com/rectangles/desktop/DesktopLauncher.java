@@ -7,9 +7,9 @@ import com.rectangles.RAGame;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-        config.title = "Rect-Angles";
-        config.width = 480;//Gdx.graphics.getWidth();//272;
-        config.height = 320;//Gdx.graphics.getHeight();//408;
+        config.title = "Rectangles";
+        config.width = 800;
+        config.height = 480;
         new LwjglApplication(new RAGame(), config);
 	}
 }
